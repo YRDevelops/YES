@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Custom Scroll Animation */
+[data-scroll] {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+[data-scroll].visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth scrolling (already added in index.html, but safe here too) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Customize scroll bar for modern browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7e22ce; /* Tailwind's purple-700 */
+  border-radius: 10px;
+}
+
+/* Optional: Add custom font (if needed) */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Custom hover effect for service cards */
+.service-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}

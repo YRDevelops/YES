@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YES</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Montserrat -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Optional: Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+<!-- Navigation Bar -->
+<nav class="fixed w-full top-0 z-50 bg-black/10 backdrop-blur-lg transition-colors duration-300 md:px-10 lg:px-10">
+  <div class="container mx-auto flex h-20 items-center justify-between px-4">
+    <!-- Logo and Brand Name -->
+    <a href="#home" class="flex items-center shrink-0">
+      <img class="w-10" height="100" width="100" src="https://tailwindflex.com/images/logo.svg" alt="Yashraj Employment logo">
+      <span class="md:flex text-2xl mt-0.5 font-bold text-primary-600 text-white">Yashraj Employment Services</span>
+    </a>
+
+    <!-- Desktop Menu Links -->
+    <div class="hidden md:flex items-center md:gap-8 text-white">
+      <a href="#home" class="text-sm font-medium hover:text-purple-400 transition">Home</a>
+      <a href="#services" class="text-sm font-medium hover:text-purple-400 transition">Services</a>
+      <a href="#about" class="text-sm font-medium hover:text-purple-400 transition">About Us</a>
+      <a href="jobs.html" class="text-sm font-medium hover:text-purple-400 transition">Jobs</a>
+      <a href="contact.html" class="text-sm font-medium hover:text-purple-400 transition">Contact</a>
+      <a href="contact.html" class="cursor-pointer rounded-full border-2 py-2 px-6 border-white bg-white text-purple-900 hover:bg-purple-900 hover:text-white hover:shadow-lg transition duration-300 ease-in-out">Get Started</a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div class="md:hidden">
+      <button class="text-2xl text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="w-full flex items-center justify-center min-h-screen overflow-hidden bg-gradient-to-b from-[#121212] to-purple-800" >
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10 container mx-auto px-4 text-center text-white">
+    <h1 id="typewriter" class="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl" >
+      Bridging Talent with <span class="relative whitespace-nowrap text-purple-400">
+        <svg aria-hidden="true" viewBox="0 0 418 42" class="absolute top-2/3 left-0 h-[0.58em] w-full fill-purple-400/70" preserveAspectRatio="none">
+          <path d="..." />
+        </svg>
+        <span class="relative">Opportunity</span>
+      </span>
+    </h1>
+    <p class="mx-auto mb-8 max-w-2xl text-lg">
+      Empowering careers and building workforce solutions across industries. Let Yashraj Employment Services find your perfect match.
+    </p>
+
+    <!-- CTA Button -->
+    <div class="flex justify-center items-center mt-8">
+      <a href="jobs.html" class="relative flex items-center justify-center px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white text-lg font-semibold rounded-full shadow-lg transform hover:scale-105 transition-transform duration-200">
+        <span class="absolute inset-0 rounded-full bg-purple-600 opacity-50 animate-ping"></span>
+        <span class="relative z-10 pr-2">Browse Jobs</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Scroll Down Icon -->
+  <div class="absolute sm:bottom-14 bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+    <a href="#about" class="cursor-pointer">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </a>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="pt-28 pb-12 text-center bg-[#1A1A1A]">
+  <div class="container mx-auto px-4">
+    <h1 class="text-4xl font-bold text-purple-400 mb-4">Our Services</h1>
+    <p class="text-gray-400 max-w-2xl mx-auto mb-8">
+      At Yashraj Employment Services, we offer comprehensive recruitment solutions to help businesses
+    </p>
+
+    <!-- Services Grid -->
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Service Cards -->
+      <div class="bg-[#1A1A1A] p-6 rounded-lg shadow-lg border border-gray-800">
+        <h2 class="text-xl font-semibold text-purple-400 mb-2">Permanent Staffing</h2>
+        <p class="text-gray-400">We connect skilled professionals with long-term opportunities that match their career goals and company needs.</p>
+      </div>
+      <div class="bg-[#1A1A1A] p-6 rounded-lg shadow-lg border border-gray-800">
+        <h2 class="text-xl font-semibold text-purple-400 mb-2">Contract Staffing</h2>
+        <p class="text-gray-400">Flexible staffing solutions to support seasonal demands, project-based work, or workforce scalability.</p>
+      </div>
+      <div class="bg-[#1A1A1A] p-6 rounded-lg shadow-lg border border-gray-800">
+        <h2 class="text-xl font-semibold text-purple-400 mb-2">Executive Search</h2>
+        <p class="text-gray-400">We specialize in finding and placing senior-level executives who lead with impact and align with your business goals.</p>
+      </div>
+      <div class="bg-[#1A1A1A] p-6 rounded-lg shadow-lg border border-gray-800">
+        <h2 class="text-xl font-semibold text-purple-400 mb-2">Payroll Management</h2>
+        <p class="text-gray-400">Efficient, compliant payroll services to help you focus on your business while we handle the backend HR processes.</p>
+      </div>
+      <div class="bg-[#1A1A1A] p-6 rounded-lg shadow-lg border border-gray-800">
+        <h2 class="text-xl font-semibold text-purple-400 mb-2">Overseas Recruitment</h2>
+        <p class="text-gray-400">We help companies find skilled candidates from international talent pools, matching skill, language, and location needs.</p>
+      </div>
+      <div class="bg-[#1A1A1A] p-6 rounded-lg shadow-lg border border-gray-800">
+        <h2 class="text-xl font-semibold text-purple-400 mb-2">Resume & Career Counseling</h2>
+        <p class="text-gray-400">Supporting job seekers with resume building, interview coaching, and career planning to reach their full potential.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="py-20 md:px-20 lg:px-20 bg-[#121212]">
+  <div class="container mx-auto px-4 text-white">
+    <div class="mb-12">
+      <h2 class="text-purple-400 text-lg mb-2">About Us</h2>
+      <h3 class="mb-4 text-3xl font-bold">Connecting Talent With Opportunity</h3>
+      <p class="mb-8 max-w-3xl text-gray-400">
+        At Yashraj Employment Services, we’ve been empowering careers and building workforce solutions for over a decade.
+        Our mission is to match the right candidates to the right roles—every time—across industries and geographies.
+      </p>
+
+      <!-- Stats -->
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="rounded-lg border border-gray-800 bg-[#1A1A1A] p-6 text-center">
+          <h4 class="mb-2 text-3xl font-bold text-purple-400">10+</h4>
+          <p class="text-gray-400">Years in Business</p>
+        </div>
+        <div class="rounded-lg border border-gray-800 bg-[#1A1A1A] p-6 text-center">
+          <h4 class="mb-2 text-3xl font-bold text-purple-400">2,500+</h4>
+          <p class="text-gray-400">Candidates Placed</p>
+        </div>
+        <div class="rounded-lg border border-gray-800 bg-[#1A1A1A] p-6 text-center">
+          <h4 class="mb-2 text-3xl font-bold text-purple-400">15</h4>
+          <p class="text-gray-400">Industries Served</p>
+        </div>
+        <div class="rounded-lg border border-gray-800 bg-[#1A1A1A] p-6 text-center">
+          <h4 class="mb-2 text-3xl font-bold text-purple-400">500+</h4>
+          <p class="text-gray-400">Happy Employers</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action Buttons -->
+    <div class="flex flex-col sm:flex-row items-center gap-4 mt-8">
+      <a href="team.html" class="rounded-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-8">Meet Our Team</a>
+      <a href="contact.html" class="rounded-full border-2 py-3 px-8 border-white text-white hover:bg-white hover:text-purple-900 transition duration-300 ease-in-out">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#0D0D0D] text-gray-300 pt-12 pb-6 px-6 md:px-20">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    
+    <!-- Brand -->
+    <div>
+      <h2 class="text-white text-2xl font-bold mb-4">Yashraj Employment</h2>
+      <p class="text-sm text-gray-400">
+        Bridging talent with opportunity across industries.
+      </p>
+    </div>
+
+    <!-- Services -->
+    <div>
+      <h3 class="text-white text-lg font-semibold mb-4">Services</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#services" class="hover:text-purple-400 transition">Permanent Staffing</a></li>
+        <li><a href="#services" class="hover:text-purple-400 transition">Contract Staffing</a></li>
+        <li><a href="#services" class="hover:text-purple-400 transition">Executive Search</a></li>
+        <li><a href="#services" class="hover:text-purple-400 transition">Payroll Management</a></li>
+      </ul>
+    </div>
+
+    <!-- Company -->
+    <div>
+      <h3 class="text-white text-lg font-semibold mb-4">Company</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#about" class="hover:text-purple-400 transition">About Us</a></li>
+        <li><a href="jobs.html" class="hover:text-purple-400 transition">Jobs</a></li>
+        <li><a href="team.html" class="hover:text-purple-400 transition">Team</a></li>
+        <li><a href="contact.html" class="hover:text-purple-400 transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 class="text-white text-lg font-semibold mb-4">Get in Touch</h3>
+      <p class="text-sm text-gray-400">Email: <a href="mailto:info@yashraj.com" class="text-purple-400 hover:underline">info@yashraj.com</a></p>
+      <p class="text-sm text-gray-400 mt-2">Phone: <a href="tel:+911234567890" class="hover:text-purple-400 transition">+91 123 456 7890</a></p>
+      <div class="flex space-x-4 mt-4">
+        <a href="#" class="text-gray-400 hover:text-purple-400 transition" aria-label="Facebook">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.5 9.9v-7H8v-3h2.5V9.5a3.5 3.5 0 013.7-3.8c1 0 2 .1 2 .1v2.3h-1.2c-1.2 0-1.6.8-1.6 1.6V12H17l-.5 3h-2v7A10 10 0 0022 12z"/></svg>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-purple-400 transition" aria-label="LinkedIn">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0zM7.98 8h4.7v2.3h.1c.6-1.1 2-2.3 4.2-2.3 4.5 0 5.3 3 5.3 6.9V24h-5V15.5c0-2.1-.1-4.8-3-4.8-3 0-3.5 2.3-3.5 4.7V24h-5V8z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="mt-10 border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
+    © 2025 Yashraj Employment Services. All rights reserved.
+  </div>
+</footer>
+
+
+</body>
+</html>
